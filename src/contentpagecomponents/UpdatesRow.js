@@ -15,6 +15,16 @@ const UpdatesRow = () => (
       <p>Brief description of the update...</p>
       <span className="update-date">Date of update</span>
     </div>
+    <div className="update-item">
+      <h3>Update Title</h3>
+      <p>Brief description of the update...</p>
+      <span className="update-date">Date of update</span>
+    </div>
+    <div className="update-item">
+      <h3>Update Title</h3>
+      <p>Brief description of the update...</p>
+      <span className="update-date">Date of update</span>
+    </div>
    
   </section>
 );

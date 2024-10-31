@@ -12,6 +12,8 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    overflow-x: hidden; /* Hides horizontal overflow */
+    overflow-y: auto;   /* Allows vertical scrolling if needed */
   }
   
   /* Title Styling */
