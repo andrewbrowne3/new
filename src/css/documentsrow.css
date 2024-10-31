@@ -1,0 +1,77 @@
+/* Main Documents Row Styling */
+.documents-row {
+    width: 100%;
+    height: 70vh; /* Adjust height as needed */
+    padding: 3vh 1vw;
+    background-color: #c1caf0;
+    border-radius: 1%;
+    box-shadow: 0 2vh 4vh rgba(0, 0, 0, 0.1);
+    margin-bottom: 2vh;
+    text-align: center;
+  }
+  
+  /* Row Title Styling */
+  .row-title {
+    font-size: 4vh;
+    font-weight: bold;
+    color: #1e3a8a;
+    margin-bottom: 2vh;
+  }
+  
+  /* Row Description Styling */
+  .row-description {
+    font-size: 2.5vh;
+    color: #374151;
+    margin-bottom: 4vh;
+  }
+  
+  /* Document List Container */
+  .document-list {
+    display: flex;
+    justify-content: center;
+    gap: 3%; /* Space between document items */
+    flex-wrap: wrap;
+    margin: 3vh 0;
+    height: 50%;
+
+  }
+  
+  /* Individual Document Item Styling */
+  .document-item {
+    width: 18%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9fafb;
+    border-radius: 1%;
+    box-shadow: 0 1vh 2vh rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    font-weight: bold;
+    color: #374151;
+  }
+  
+  /* Hover Effect for Document Items */
+  .document-item:hover {
+    transform: translateY(-1%);
+    box-shadow: 0 1.5vh 3vh rgba(0, 0, 0, 0.2);
+  }
+  
+  /* View More Button Styling */
+  .document-button {
+    padding: 1.5vh 3vw;
+    font-size: 2vh;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #1e3a8a;
+    border: none;
+    border-radius: 0.5vh;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 1vh 2vh rgba(0, 0, 0, 0.2);
+  }
+  
+  .document-button:hover {
+    background-color: #3a5da8;
+  }
+  

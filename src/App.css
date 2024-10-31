@@ -1,0 +1,21 @@
+
+/* landing-page.css */
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  height: 150vh;
+}
+
+
+.header-logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+
+
+
+
+
+

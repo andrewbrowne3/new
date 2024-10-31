@@ -1,0 +1,17 @@
+.ct-button {
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #5a8db8;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.ct-button:hover {
+  background-color: #476f91;
+  transform: translateY(-3px);
+}

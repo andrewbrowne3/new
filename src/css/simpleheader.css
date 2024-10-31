@@ -1,0 +1,26 @@
+/* Simple Header Styling */
+.simple-header {
+    width: 100%;
+    background-color: #6480bb; /* Softer blue for contrast with NavBar */
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .simple-header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .header-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .header-description {
+    font-size: 1rem;
+    color: #d1e3ff; /* Lighter shade for description text */
+  }
+  

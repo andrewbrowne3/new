@@ -1,0 +1,38 @@
+/* navbar.css */
+
+/* Main nav bar styling */
+.header-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6vh !important; /* Slightly taller for a balanced look */
+    background-color: #1e3a8a; /* Midnight Blue */
+    padding: 0 20px; /* Horizontal padding for inner space */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  }
+  
+  /* Flex list styling */
+  .nav-list {
+    display: flex;
+    gap: 30px; /* Space between each item */
+    list-style: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Nav item links */
+  .header-nav-item {
+    color: #ffffff; /* White text */
+    text-decoration: none; /* Remove underline */
+    font-weight: 500;
+    padding: 10px 15px; /* Add padding for larger clickable area */
+    transition: color 0.3s ease, background-color 0.3s ease; /* Smooth transition */
+    border-radius: 5px; /* Rounded edges for link buttons */
+  }
+  
+  /* Hover effect */
+  .header-nav-item:hover {
+    color: #facc15; /* Lemon Yellow */
+    background-color: rgba(255, 255, 255, 0.1); /* Light overlay */
+  }
+  

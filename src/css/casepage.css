@@ -1,0 +1,34 @@
+/* Main CasePage Layout */
+.case-page {
+    display: flex;
+    flex-direction: column;
+   height:130vh;
+  }
+  
+  /* Row Styling */
+  .case-row {
+    width: 100%;
+    padding: 2rem 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    background-color: #ffffff; /* White background for clarity */
+  }
+  
+  /* Row Title */
+  .row-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #1e3a8a; /* Dark blue for headings */
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+  
+  /* Row Description */
+  .row-description {
+    font-size: 1.2rem;
+    color: #374151; /* Dark gray for readability */
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
