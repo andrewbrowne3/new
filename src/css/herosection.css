@@ -8,13 +8,12 @@
   align-items: center;
   color: #ffffff;
   text-align: center;
-  padding: 0 20px;
-  overflow-x: hidden; /* Hides horizontal overflow */
-  overflow-y: auto;   /* Allows vertical scrolling if needed */
+  padding: 2%;
+
 }
 
 .hero-title {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 700;
 }
 
@@ -34,6 +33,7 @@
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  margin-bottom: 3%;
 }
 
 .hero-button:hover {
