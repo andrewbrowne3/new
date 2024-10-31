@@ -5,7 +5,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 6vh !important; /* Slightly taller for a balanced look */
+    height: 8vh !important; /* Slightly taller for a balanced look */
     background-color: #1e3a8a; /* Midnight Blue */
     padding: 0 20px; /* Horizontal padding for inner space */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */

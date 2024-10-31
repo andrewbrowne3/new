@@ -14,7 +14,6 @@ const CaseDetailsRow = () => (
       <li>7. The case has gained significant media attention and public interest.</li>
       <li>8. Expert witnesses are scheduled to testify on environmental impact.</li>
       <li>9. Settlement discussions were attempted but did not yield an agreement.</li>
-      <li>10. Trial is set to begin on January 10, 2024, with an expected duration of two weeks.</li>
     </ul>
   </section>
 );
